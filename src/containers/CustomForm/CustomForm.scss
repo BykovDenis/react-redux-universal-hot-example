@@ -1,0 +1,13 @@
+.custom-form {
+
+  input[type="submit"] {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.4);
+    color: rgba(0,0,0,.4);
+  }
+
+  label {
+    padding: 5px 10px;
+  }
+}

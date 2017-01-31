@@ -12,7 +12,9 @@ import {
     Survey,
     NotFound,
     Pagination,
+    CustomForm
   } from 'containers';
+
 
 export default (store) => {
   const requireLogin = (nextState, replace, cb) => {
@@ -52,6 +54,7 @@ export default (store) => {
       <Route path="pagination" component={Pagination}/>
       <Route path="survey" component={Survey}/>
       <Route path="widgets" component={Widgets}/>
+      <Route path="customForm" component={CustomForm}/>
 
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />
