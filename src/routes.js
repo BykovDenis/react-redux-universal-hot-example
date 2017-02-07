@@ -12,7 +12,8 @@ import {
     Survey,
     NotFound,
     Pagination,
-    CustomForm
+    CustomForm,
+    WidgetConstructor
   } from 'containers';
 
 
@@ -55,6 +56,7 @@ export default (store) => {
       <Route path="survey" component={Survey}/>
       <Route path="widgets" component={Widgets}/>
       <Route path="customForm" component={CustomForm}/>
+      <Route path="widgetConstructor" component={WidgetConstructor}/>
 
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />
